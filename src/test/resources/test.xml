@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke" parallel="false">
+	<test name="SampleTest">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="mySelenium" />
+		</classes>
+	</test>
+</suite>
